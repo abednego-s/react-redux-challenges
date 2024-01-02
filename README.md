@@ -10,5 +10,6 @@ Should you have any suggestions on how we can refine or improve these challenges
 
 ## Challenges
 
-- createSlice (Build a Counter app)
-- createReducer (Build a Todo app)
+1. createSlice (Build a Counter app)
+2. createReducer (Build a Todo app)
+3. createAsyncThunk (Fetch user data)
