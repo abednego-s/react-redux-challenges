@@ -1,30 +1,14 @@
-# React + TypeScript + Vite
+# React Redux Challenges
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About
 
-Currently, two official plugins are available:
+This coding challenge has been curated to assess your proficiency with the Redux library. Make this project to evaluate your understanding of common use-cases, as well as your familiarity with the various functions and utilities offered by Redux. Each challenge is accompanied by detailed instructions and corresponding unit test code that must be successfully passed. I believe that engaging with these challenges will significantly enhance your learning experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Inside the `src` folder, navigates to each challenges and look into the README file for the instructions on how to run, implement and test the code.
 
-## Expanding the ESLint configuration
+Should you have any suggestions on how we can refine or improve these challenges to better cater to your learning needs, I welcome your input. Your success in this coding challenge is not just a measure of your current skills, but also an opportunity for growth and improvement. I wish you the best of luck, and feel free to reach out with any questions or feedback.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Challenges
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- createSlice (Build a Counter app)
+- createReducer (Build a Todo app)
