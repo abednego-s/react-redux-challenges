@@ -2,7 +2,7 @@
 
 ## Run the app
 
-`npm run ./src/01-createSlice`
+`npm run dev ./src/01-createSlice`
 
 ## Description
 
@@ -11,3 +11,7 @@ A straightforward "Counter" app. Clicking the "Increment" button should lead to 
 ## Run the test
 
 `npm run test ./src/01-createSlice`
+
+## References
+
+Redux [`createSlice`](https://redux-toolkit.js.org/api/createSlice) documentation
