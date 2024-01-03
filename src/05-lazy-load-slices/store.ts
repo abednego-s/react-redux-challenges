@@ -1,14 +1,10 @@
-import { WithSlice, combineSlices, configureStore } from "@reduxjs/toolkit";
+import { combineSlices, configureStore } from "@reduxjs/toolkit";
 import { userSlice } from "./userSlice";
-import { postSlice } from "./postSlice";
 
-interface LazyLoadSlices extends WithSlice<typeof postSlice> {}
-
-export const rootReducer =
-  combineSlices(userSlice).withLazyLoadedSlices<LazyLoadSlices>();
+export const rootReducer = combineSlices(userSlice);
 
 export const store = configureStore({
   reducer: rootReducer,
 });
 
-export type RootState = ReturnType<typeof rootReducer>;
+export type AppState = ReturnType<typeof rootReducer>;
