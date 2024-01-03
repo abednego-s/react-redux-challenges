@@ -13,3 +13,5 @@ Should you have any suggestions on how we can refine or improve these challenges
 1. createSlice (Build a Counter app)
 2. createReducer (Build a Todo app)
 3. createAsyncThunk (Fetch user data)
+4. createEntityAdapter (CRUD book app)
+5. lazy load slices
