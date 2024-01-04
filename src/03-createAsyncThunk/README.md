@@ -1,4 +1,4 @@
-# Challenge #3 - createAsyncThunk
+# Challenge 03 - createAsyncThunk
 
 ## Run the app
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-On the page, you'll find two buttons - "Fetch user data (success)" and "Fetch user data (fail)." Implement functionality for the "Fetch user data (success)" button. Upon clicking, it should initiate a request to the API, retrieve data, and display it on the page. Conversely, clicking the "Fetch user data (fail)." button should trigger an API request, gracefully handle any error responses, and exhibit the error message on the page. Please complete the existing implementation so it can pass the tests.
+There are two buttons on the page: "Fetch user data (success)" and "Fetch user data (fail)." Make the "Fetch user data (success)" button functional. When you click, it should send a request to the API, retrieve the data, and display it on the page. Clicking the "Fetch user data (fail)." button, on the other hand, should initiate an API request, gracefully handle any error responses, and display the error message on the page. Please finish the existing implementation so that the tests can pass.
 
 ## Run the test
 

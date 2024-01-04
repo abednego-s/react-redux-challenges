@@ -1,4 +1,4 @@
-# Challenge #1 - createSlice
+# Challenge 01 - createSlice
 
 ## Run the app
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-A straightforward "Counter" app. Clicking the "Increment" button should lead to an increase in the displayed number, while the "Decrement" button should decrease the number correspondingly. Additionally, incorporate an input text field and a button labeled "Increment by Amount." Upon clicking this button, the value should be incremented based on the numerical input provided.
+A simple "Counter" app. Clicking the "Increment" button should increase the displayed number, while clicking the "Decrement" decrease the displayed number. Additionally, there's an input text field and "Increment by Amount" button, when this button is clicked, the value should be incremented based on the input provided.
 
 ## Run the test
 

@@ -6,7 +6,7 @@
 
 ## Description
 
-A straightforward CRUD book app. Within the form, you'll encounter a text input field alongside an "Add" button. Upon clicking the "Add" button, a new book item will appear on the list, its title derived from the value entered into the text input. Each book item on the list is equipped with an input checkbox and a "Delete" button. The checkbox, when clicked, toggles between checked and unchecked states. Furthermore, clicking the "Delete" button will remove the respective item from the list.
+A simple CRUD book app. A text input field and a "Add" button can be found on the form. When you click the "Add" button, a new book item will be added to the list, with a title derived from the value you entered in the text input. Each book on the list has a checkbox for input and a "Delete" button. When you click the checkbox, it toggles between checked and unchecked states. Additionally, clicking the "Delete" button will remove the item from the list.
 
 ## Run the test
 
@@ -14,4 +14,4 @@ A straightforward CRUD book app. Within the form, you'll encounter a text input 
 
 ## Reference
 
-Redux documentation for [createEntityAdapter](https://redux-toolkit.js.org/api/createEntityAdapter)
+Redux [createEntityAdapter](https://redux-toolkit.js.org/api/createEntityAdapter) documentation
