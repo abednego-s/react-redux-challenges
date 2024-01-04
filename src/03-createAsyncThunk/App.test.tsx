@@ -17,10 +17,10 @@ describe("User detail", () => {
     await waitFor(() => {
       expect(
         screen.getByRole("heading", { name: /user data:/i })
-      ).not.toBeNull();
+      ).toBeInTheDocument();
     });
-    expect(screen.getByText(fakeUser.name)).not.toBeNull();
-    expect(screen.getByText(fakeUser.email)).not.toBeNull();
+    expect(screen.getByText(fakeUser.name)).toBeInTheDocument();
+    expect(screen.getByText(fakeUser.email)).toBeInTheDocument();
   });
 
   test("handle error when load user detail", async () => {
@@ -32,7 +32,7 @@ describe("User detail", () => {
     const fetchUserBtn = screen.getByTestId("fetchUserBtn2");
     fireEvent.click(fetchUserBtn);
     await waitFor(() => {
-      expect(screen.getByText("Error")).not.toBeNull();
+      expect(screen.getByText("Error")).toBeInTheDocument();
     });
   });
 });
