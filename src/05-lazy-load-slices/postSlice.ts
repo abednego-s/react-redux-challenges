@@ -1,4 +1,4 @@
-import { PayloadAction, createSlice } from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";
 
 export type Post = {
   id: number;
@@ -12,11 +12,5 @@ const initialState: { data: Post[] } = {
 export const postSlice = createSlice({
   name: "posts",
   initialState,
-  reducers: {
-    addPost: (state, action: PayloadAction<Post[]>) => {
-      state.data = action.payload;
-    },
-  },
+  reducers: {},
 });
-
-export const { addPost } = postSlice.actions;

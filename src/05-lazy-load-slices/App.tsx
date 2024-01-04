@@ -1,3 +1,3 @@
 export default function App() {
-  return <button>Load Data</button>;
+  return <button>Load Posts</button>;
 }

@@ -12,11 +12,14 @@ export default function App() {
          * show all the books
          * ====================
          *
-         * remove this following code and replace with your own implementaion
+         * replace the code below with your own implementation
          * */}
         <li>
-          The hobbit <button>Delete</button>
-          <input type="checkbox" />
+          <label>The hobbit</label>
+          <button>Delete</button>
+          <label>
+            <input type="checkbox" /> Read
+          </label>
         </li>
         {/** ==================== */}
       </ul>

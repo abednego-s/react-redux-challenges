@@ -10,9 +10,23 @@ export default function App() {
         </div>
         <input type="submit" value="Add todo" />
       </form>
-      <div>
-        <ul>{/** Display todos here */}</ul>
-      </div>
+      <ul>
+        {/**
+         * ====================
+         * show all the todos
+         * ====================
+         *
+         * replace the code below with your own implementation
+         * */}
+        <li>
+          <label>
+            <input type="checkbox" />
+            finish today's homework
+          </label>
+          <button>Delete</button>
+        </li>
+        {/** ====================  */}
+      </ul>
       <hr />
     </>
   );
